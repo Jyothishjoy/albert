@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "albert"
+version = "0.1.0"
+description = "Feature extraction from Gaussian outputs for ML workflows"
+readme = "README.md"
+requires-python = ">=3.10"
+
+dependencies = [
+  # TODO: fill in (e.g., pandas, numpy, tqdm, AaronTools, morfeus, etc.)
+]
+
+[project.scripts]
+albert = "albert.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
