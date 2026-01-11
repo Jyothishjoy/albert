@@ -8,9 +8,11 @@ version = "0.1.0"
 description = "Feature extraction from Gaussian outputs for ML workflows"
 readme = "README.md"
 requires-python = ">=3.10"
-
 dependencies = [
-  # TODO: fill in (e.g., pandas, numpy, tqdm, AaronTools, morfeus, etc.)
+  "numpy",
+  "tqdm",
+  "AaronTools",
+  "morfeus-ml",
 ]
 
 [project.scripts]
