@@ -1,2 +1,2 @@
 # albert
-Feature extraction from QM output files for ML workflows
+Feature extraction from QM outputs for ML workflows
